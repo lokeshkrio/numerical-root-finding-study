@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "root-finding-algorithms"
+version = "0.1.0"
+description = "A Python-based experimental comparison of four numerical methods for solving nonlinear equations."
+authors = [{ name = "Lokesh Kumar", email = "lokesh45116k@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
